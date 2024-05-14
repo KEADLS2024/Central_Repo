@@ -1,0 +1,13 @@
+name: Dispatch API Tests
+
+on: [push, pull_request]
+
+jobs:
+  build-and-dispatch:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Complete Central Repo Workflow
+      run: echo "Central repo workflow completed."
