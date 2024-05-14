@@ -1,4 +1,4 @@
-name: Centralized API Tests
+name: UnitTest on model classes
 
 on: [push, pull_request]
 
