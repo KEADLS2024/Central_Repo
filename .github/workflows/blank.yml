@@ -19,6 +19,7 @@ jobs:
       with:
         repository: your-org/DLS_Catalog_Service_2.0
         path: DLS_Catalog_Service_2.0
+        ref: main # or the default branch name
         token: ${{ secrets.PAT_TOKEN }}
 
     - name: Setup .NET
