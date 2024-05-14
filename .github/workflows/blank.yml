@@ -40,4 +40,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: dls-catalog-service-test-results
-        path: DLS_Catalog_Service_2.0/DLS_Catalog_Service_3.0.Tests/TestResults/*.trx
+        path: DLS_Catalog_Service_3.0/DLS_Catalog_Service_3.0.Tests/TestResults/*.trx
