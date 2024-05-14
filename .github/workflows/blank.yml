@@ -17,9 +17,9 @@ jobs:
     - name: Checkout DLS Catalog Service Repository
       uses: actions/checkout@v2
       with:
-        repository: your-org/DLS_Catalog_Service_2.0
+        repository: KEADLS2024/DLS_Catalog_Service_2.0
         path: DLS_Catalog_Service_2.0
-        ref: main # or the default branch name
+        ref: main # Adjust this if your default branch is different
         token: ${{ secrets.PAT_TOKEN }}
 
     - name: Setup .NET
