@@ -19,7 +19,7 @@ jobs:
       with:
         repository: KEADLS2024/DLS_Catalog_Service_2.0
         path: DLS_Catalog_Service_2.0
-        ref: main # Adjust this if your default branch is different
+        ref: main # Ensure this matches the default branch of your API repository
         token: ${{ secrets.PAT_TOKEN }}
 
     - name: Setup .NET
