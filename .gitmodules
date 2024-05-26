@@ -1,0 +1,12 @@
+[submodule "DLS_Catalog_Service_3.0"]
+	path = DLS_Catalog_Service_3.0
+	url = https://github.com/KEADLS2024/DLS_Catalog_Service_3.0.git
+[submodule "EmailService"]
+	path = EmailService
+	url = https://github.com/KEADLS2024/EmailService.git
+[submodule "PaymentService3"]
+	path = PaymentService3
+	url = https://github.com/KEADLS2024/PaymentService3.git
+[submodule "UserService"]
+	path = UserService
+	url = https://github.com/KEADLS2024/UserService.git
